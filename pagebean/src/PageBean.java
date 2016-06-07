@@ -2,7 +2,7 @@ import com.google.common.collect.Lists;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.NoSuchElementException;
+
 
 /**
  * Created by clouway on 06.06.16.
@@ -11,7 +11,7 @@ import java.util.NoSuchElementException;
  *         (Alexander Vladimirov)
  */
 public class PageBean<T> {
- private final List<T> elements;
+  private final List<T> elements;
   private final int pageSize;
   private int cursor=0;
 
@@ -33,6 +33,7 @@ public class PageBean<T> {
     this.cursor = end -pageSize;
     return getElements(end);
   }
+
 public List<T> firstPage(){
   this.cursor = 0;
   return getElements(cursor + pageSize);

@@ -16,10 +16,15 @@ public class Demo {
     PageBean pageBean = new PageBean(list, 3);
 
 
-    System.out.println("First Page: " +  pageBean.firstPage());
-    System.out.println("Last Page: " + pageBean.lastPage());
+
 
     System.out.println(pageBean.next());
-
+    System.out.println(pageBean.next());
+    System.out.println(pageBean.previous());
+    System.out.println(pageBean.next());
+    System.out.println(pageBean.next());
+    System.out.println(pageBean.firstPage());
+    System.out.println(pageBean.next());
+    System.out.println(pageBean.lastPage());
    }
 }
