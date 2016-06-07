@@ -21,10 +21,13 @@ public class Demo {
     System.out.println(pageBean.next());
     System.out.println(pageBean.next());
     System.out.println(pageBean.previous());
-    System.out.println(pageBean.next());
-    System.out.println(pageBean.next());
-    System.out.println(pageBean.firstPage());
-    System.out.println(pageBean.next());
-    System.out.println(pageBean.lastPage());
+    System.out.println(pageBean.previous());
+    System.out.println(pageBean.previous());
+
+//    System.out.println(pageBean.next());
+//    System.out.println(pageBean.next());
+//    System.out.println(pageBean.firstPage());
+//    System.out.println(pageBean.next());
+//    System.out.println(pageBean.lastPage());
    }
 }
