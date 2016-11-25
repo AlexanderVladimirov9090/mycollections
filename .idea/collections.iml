@@ -5,5 +5,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
+=======
+    <orderEntry type="library" name="com.google.guava:guava:14.0.1" level="project" />
+>>>>>>> 78a8e0b24aa4dc25b3c8b576fadb32adc5cc1376
   </component>
 </module>
